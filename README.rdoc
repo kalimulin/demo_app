@@ -1,28 +1,5 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Приложение построено по книге "Гибкая разработка веб-приложений в среде Rails" 
+(http://www.ozon.ru/context/detail/id/8153111/), по ней построен тестовый интернет-магазин по адресу: http://ror-store.tk 
+Для работы приложения был арендован VPS и самостоятельно настроен веб-сервер Nginx+MySQL. 
+Интернет-магазин имеет базовый функционал по добавлению/изменению/просмотру/удалению товаров, заказов и пользователей. 
+Имеется административная зона для управления интернет-магазином. Приложение использует библиотеки jQuery и CarrierWave.
